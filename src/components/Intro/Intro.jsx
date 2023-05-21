@@ -11,7 +11,7 @@ import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import email from "../../img/email.png";
 import { themeContext } from "../../Context";
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 import { Link } from "react-scroll";
 const Intro = () => {
   // Transition

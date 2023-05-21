@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import "./Portfolio.css";
-import { Swiper, SwiperSlide } from "swiper/react"
-import { Pagination } from "swiper";
-import "swiper/css";
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 import onlinevoting from "../../img/onlinevoting.png";
 import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
