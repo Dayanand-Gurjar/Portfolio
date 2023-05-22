@@ -21,7 +21,7 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           setDone(true);
-          form.reset();
+          document.getElementById("myform").reset();
         },
         (error) => {
           console.log(error.text);
@@ -45,7 +45,7 @@ const Contact = () => {
       </div>
       {/* right side form */}
       <div className="c-right">
-        <form ref={form} onSubmit={sendEmail}>
+        <form id="myform" ref={form} onSubmit={sendEmail}>
           <input type="text" name="user_name" className="user"  placeholder="Name"/>
           <input type="email" name="user_email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
