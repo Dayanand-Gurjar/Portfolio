@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectCoverflow, Pagination } from "swiper";
+
 import 'swiper/css';
 import onlinevoting from "../../img/onlinevoting.png";
 import Ecommerce from "../../img/ecommerce.png";
@@ -19,9 +21,20 @@ const Portfolio = () => {
 
       {/* slider */}
       <Swiper
-        spaceBetween={10}
-        slidesPerView={2}
+        effect={"coverflow"}
         grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+
         className="portfolio-slider"
       >
         <SwiperSlide>
