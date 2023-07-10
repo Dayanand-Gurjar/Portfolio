@@ -38,10 +38,9 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/Dayanand-Gurjar"><img src={Github} alt="" /></a>
-          <a href="https://www.linkedin.com/in/dayanand-gurjar-8939a9241"><img src={LinkedIn} alt="" /></a>
-          <a href="mailto: dayanandgurjar02@gmail.com"><img src={email} alt="" /></a>
-
+          <a target="_blank" href="https://github.com/Dayanand-Gurjar"><img src={Github} alt="" /></a>
+          <a target="_blank"  href="https://www.linkedin.com/in/dayanand-gurjar-8939a9241"><img src={LinkedIn} alt="" /></a>
+          <a target="_blank"  href="mailto: dayanandgurjar02@gmail.com"><img src={email} alt="" /></a>
         </div>
       </div>
       {/* right image side */}

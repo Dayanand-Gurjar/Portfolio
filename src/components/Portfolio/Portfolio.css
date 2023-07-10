@@ -24,8 +24,6 @@
 }
 
 
-
-
 .portfolio-slider .swiper-slide {
   width:20%;
   margin:2rem;
@@ -47,9 +45,9 @@
 }
 .container{
   background-color:aliceblue;
-  width: 90%;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
-  border-radius:0px;
+  border:7px solid rgb(117, 199, 240);
+  border-radius:5px;
   padding: 1rem;
 }
 .innercontainer h1{
@@ -57,6 +55,9 @@
   text-align: center;
   color:#fca61f;
 }
+/* .innercontainer p{
+  text-align: left;
+} */
 .innercontainer{
   margin:0rem;
 }
